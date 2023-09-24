@@ -41,9 +41,9 @@ namespace LexiconPractice3
 
             WriteQuestion("9. Skapa nu tre egna klasser med tre egna definitioner på UEMessage() 10. Testa och se så det fungerar.");
 
-            userErrors.Add(new CustomError("This the first custom error"));
-            userErrors.Add(new CustomError2("This the second custom error"));
-            userErrors.Add(new CustomError3("This the third custom error"));
+            userErrors.Add(new CustomError("This is the first custom error!"));
+            userErrors.Add(new CustomError2("This is the second custom error!"));
+            userErrors.Add(new CustomError3("This is the third custom error!"));
 
             Console.WriteLine();
             foreach (var error in userErrors)
